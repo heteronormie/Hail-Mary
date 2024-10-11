@@ -36,6 +36,7 @@
 
 #define RECIPE_SPEAR "dddf" //draw draw draw fold
 #define RECIPE_TRIDENT "ddbf" //draw draw bend fold
+#define RECIPE_PIKE "dubp" //draw upset bend punch
 
 #define RECIPE_JAVELIN "sdu" //shrink draw upset
 #define RECIPE_THROWING "sdd" //shrink draw draw
@@ -82,6 +83,7 @@ GLOBAL_LIST_INIT(anvil_recipes, list(
 	RECIPE_SPATHA = /obj/item/smithing/spathablade,
 	RECIPE_WARAXE = /obj/item/smithing/waraxehead,
 	RECIPE_LANCE = /obj/item/smithing/lancehead,
+	RECIPE_PIKE = /obj/item/smithing/pikehead
     ))
 
 
